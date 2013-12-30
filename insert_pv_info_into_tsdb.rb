@@ -1,7 +1,7 @@
 #!/home/work/router/env/ruby192/bin/ruby
 require "eventmachine"
 require "socket"
-interval_sec=60 #note: please don't not change
+interval_sec=60 #note: please don't change
 nginx_log_path="/home/work/router/log/nginx_router_access.log"
 tsdb_host="10.36.58.31"
 tsdb_port="8242"
